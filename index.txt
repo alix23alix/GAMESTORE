@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Play Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Web Play Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Games</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="app-list">
+        <h2>Featured Apps</h2>
+        <div class="app">
+            <img src="app-icon.jpg" alt="App Icon">
+            <h3>App Name</h3>
+            <p>App description goes here...</p>
+            <button>Install</button>
+        </div>
+        <!-- Add more apps as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Web Play Store</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
